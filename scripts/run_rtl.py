@@ -56,9 +56,13 @@ def main():
         # Restore both success and failure paths to keep source hashes reproducible.
         configuration = project / 'src/definitions/configuration.svh'
         before = configuration.read_bytes()
+        xml = project / 'src/system/test/results.xml'
+        xml.unlink(missing_ok=True)
         try:
             run('linear', ['just', 'rtl-sim', 'linear', 'true', '--batch', '4',
                            '--in-features', '16', '--out-features', '32'], timeout=1800)
+            receipt['jobs']['linear']['passed_tests'] = check_xml(xml)
+            (out / 'linear-results.xml').write_bytes(xml.read_bytes())
             build = project / 'build/test/linear'
             assert (build / 'golden_result.pt').is_file()
             assert (build / 'hbm_result.mem').is_file()
@@ -70,6 +74,8 @@ def main():
                     (out / name).write_bytes((build / name).read_bytes())
             print(f'Baseline Linear: simulation + upstream golden comparison PASS; {len(words)} words', flush=True)
         finally:
+            (out / 'configuration-during-run.svh').write_bytes(configuration.read_bytes())
+            (out / 'precision.svh').write_bytes((project / 'src/definitions/precision.svh').read_bytes())
             configuration.write_bytes(before)
     (out / 'receipt.json').write_text(json.dumps(receipt, indent=2), encoding='utf-8')
 
