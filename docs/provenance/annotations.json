@@ -1,0 +1,37 @@
+[
+  {
+    "path": "reference/upstream-release/tools/testworkloads/linear.py",
+    "notes": 8,
+    "original_slice_sha256": "6c1e503722cc87aef279a7083342e43f09ea98876b975037aeee59e08277acd7"
+  },
+  {
+    "path": "src/vector_machine/rtl/softmax_state_bank.sv",
+    "notes": 5,
+    "original_slice_sha256": "d0e9a3b7c37968b47035189bcb124f727d3ea4617e9cdd5e779f9a0a85b1d7e1"
+  },
+  {
+    "path": "src/vector_machine/rtl/softmax_state_simd.sv",
+    "notes": 6,
+    "original_slice_sha256": "64795f6cc41d7621fc7549da1d0b6776c60239e4b31e226f161951d18bb39500"
+  },
+  {
+    "path": "src/vector_machine/rtl/softmax_row_engine.sv",
+    "notes": 9,
+    "original_slice_sha256": "2511cbe2f344670ccd38940f89c8c140cb4ab8f7d77b1faef952505ca5832937"
+  },
+  {
+    "path": "src/matrix_machine/rtl/packed_pv_writeback.sv",
+    "notes": 6,
+    "original_slice_sha256": "c9777d5018f7e9bb21dba032309cca1b4feccc4880fd8df040a3d9e6ab22c5c0"
+  },
+  {
+    "path": "src/matrix_machine/rtl/packed_pv_accumulator.sv",
+    "notes": 5,
+    "original_slice_sha256": "8087a90106dacfcf343f0f043e04d8e1067b7da006316f952c73eef636142889"
+  },
+  {
+    "path": "src/vector_machine/test/softmax_row_engine_tb.py",
+    "notes": 6,
+    "original_slice_sha256": "aac319aa51d17b817b945b72f2711b40fe028e32a8dfa7a09b21dfbc37e8f40b"
+  }
+]
