@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1791114549" />
+    <testcase name="test" classname="SimTop_tb" file="${FRESH_HARDWARE}/reference/upstream-release/src/system/test/SimTop_tb.py" lineno="153" time="0.40393972396850586" sim_time_ns="21460.001" ratio_time="53126.740765097864" />
+  </testsuite>
+</testsuites>

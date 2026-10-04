@@ -1,0 +1,28 @@
+========================================
+PLENA RTL Simulation: linear
+========================================
+Build:   ${FRESH_HARDWARE}/reference/upstream-release/build/test/linear
+Time:    Sun Oct  4 19:39:08 +08 2026
+Rebuild: true
+ASM gen: ENABLED
+Args:    --batch 4 --in-features 16 --out-features 32
+========================================
+
+=== Step 1: Generate Workload ===
+${FRESH_HARDWARE}/reference/upstream-release/tools/cfl_cocotb/runner.py:12: UserWarning: Python runners and associated APIs are an experimental feature and subject to change.
+  from cocotb.runner import get_runner, get_results
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "${FRESH_HARDWARE}/reference/upstream-release/tools/testworkloads/linear.py", line 49, in <module>
+    from compiler.aten.plena import PlenaCompiler
+  File "${FRESH_HARDWARE}/reference/upstream-release/PLENA_Compiler/aten/__init__.py", line 30, in <module>
+    from compiler.aten.ops.registry import OpRegistry, Backend  # noqa: E402, F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "${FRESH_HARDWARE}/reference/upstream-release/PLENA_Compiler/aten/ops/__init__.py", line 14, in <module>
+    from compiler.aten.ops.registry import OpRegistry, Backend  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "${FRESH_HARDWARE}/reference/upstream-release/PLENA_Compiler/aten/ops/registry.py", line 11, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+error: recipe `rtl-sim` failed with exit code 1

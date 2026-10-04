@@ -1,0 +1,23 @@
+{
+  "check_hbm": false,
+  "check_vram": true,
+  "vram_start_row_idx": 8,
+  "vram_num_rows": 16,
+  "row_dim": 8,
+  "vram_compare_start_row": 0,
+  "vram_compare_num_rows": 16,
+  "vram_total_rows": 16,
+  "golden_vram_file": "golden_vram_result.pt",
+  "workload_type": "linear",
+  "batch_size": 4,
+  "in_features": 16,
+  "out_features": 32,
+  "output_shape": [
+    4,
+    32
+  ],
+  "mx_format": "mxint",
+  "exp_width": 8,
+  "man_width": 8,
+  "scale_width": 8
+}

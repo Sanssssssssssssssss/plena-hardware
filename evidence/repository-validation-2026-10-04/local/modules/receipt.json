@@ -1,0 +1,15 @@
+{
+  "profile": "modules",
+  "jobs": {
+    "softmax_row_engine": {
+      "exit_code": 0,
+      "seconds": 130.91152656399998,
+      "passed_tests": 2
+    },
+    "packed_pv_writeback": {
+      "exit_code": 0,
+      "seconds": 50.56132699599999,
+      "passed_tests": 1
+    }
+  }
+}

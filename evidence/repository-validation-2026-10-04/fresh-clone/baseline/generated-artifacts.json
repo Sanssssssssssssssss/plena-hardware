@@ -1,0 +1,58 @@
+{
+  "act_tensor.pt": {
+    "bytes": 1726,
+    "sha256": "ed59c5efc6f091226ce678da8e6d613fa7a334117a1c534da2debfb419606f06"
+  },
+  "fp_reg_result.mem": {
+    "bytes": 32,
+    "sha256": "1bc8b4d5c73096531e2ecb738bb214a1b4d8b3211a1ff7fd462887ac74f787e7"
+  },
+  "fp_sram.mem": {
+    "bytes": 18,
+    "sha256": "dd1b65339d32a667a89ef9e3dcf3ce611535fa8dd3bde3c32862fdc304df4c46"
+  },
+  "generated_asm_code.asm": {
+    "bytes": 4146,
+    "sha256": "7a71e81005f82bbc98f65decb67b7364faa3a68998bd1b71fe997f4be0312f3e"
+  },
+  "generated_machine_code.mem": {
+    "bytes": 1738,
+    "sha256": "638a9899ad553e55de83efc1719c5e57ed900031b5e29a90c5c19f1a3c6cfb15"
+  },
+  "golden_result.pt": {
+    "bytes": 2131,
+    "sha256": "b09443dc0f8979212b29ad502da355eea58d921a638c425b137b8cf9aac42d06"
+  },
+  "golden_vram_result.pt": {
+    "bytes": 2166,
+    "sha256": "94b9f312300bc6951d00718214f4e75c40eff798036e1c088c62899a48fc69e1"
+  },
+  "hbm.mem": {
+    "bytes": 2747,
+    "sha256": "d946b435c87835f34950954a1fb35370c0ced45cecc6096741e8d28509b1910e"
+  },
+  "hbm_result.mem": {
+    "bytes": 2747,
+    "sha256": "ab1ee222cf70ee1574b8a686d12d28c18ea106cf6ff69a6e909064c7079c4757"
+  },
+  "int_sram.mem": {
+    "bytes": 110,
+    "sha256": "1888d86b2f5bfcfb0b28cd357ee7e5449f63b3794052ab076ceabd301488e1e0"
+  },
+  "test_params.json": {
+    "bytes": 226,
+    "sha256": "f6038bb7bd0fc9a905c798827cc21f41caec45abfaf9670bbb43f79d662012ca"
+  },
+  "vector_result.mem": {
+    "bytes": 25600,
+    "sha256": "339fcc20f480d57fffa276460b137c77267e4b9770e4dbb195323fa539b24ba8"
+  },
+  "verification_params.json": {
+    "bytes": 456,
+    "sha256": "16147f0d8a4c645896bb17c14910ecdd4b6db0b20fbf05539ea9f731531e3943"
+  },
+  "weights.pt": {
+    "bytes": 2601,
+    "sha256": "68617435689b6bf8d6d7bee52e9ad7d0596784c7ca7a048097c2dfaefb4adefe"
+  }
+}

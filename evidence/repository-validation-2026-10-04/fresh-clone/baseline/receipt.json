@@ -1,0 +1,11 @@
+{
+  "profile": "baseline",
+  "jobs": {
+    "linear": {
+      "exit_code": 0,
+      "seconds": 141.78408055,
+      "passed_tests": 1
+    }
+  },
+  "machine_code_words": 158
+}

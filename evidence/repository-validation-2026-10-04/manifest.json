@@ -1,0 +1,146 @@
+{
+  "recorded_utc": "2026-10-04T11:50:20.320159+00:00",
+  "transform": "UTF-8 LF; local checkout prefixes replaced with named placeholders; numeric output unchanged",
+  "evidence_snapshot_commit": "aa3702498631c6a8a42169ee4a7fa7f92c8ff566",
+  "fresh_clone_execution_commits": {
+    "modules_and_lint": "2fa3a8b4da7f6839971d89d632ec24ea3ce7252e",
+    "baseline": "aa3702498631c6a8a42169ee4a7fa7f92c8ff566",
+    "initial_missing_pyyaml": "f3b2543e9906e936fd33654eaa9f04de4a8d9049"
+  },
+  "source_manifest_sha256": "319f7640079f9ebb07dece96efd99d3638a2e2173bec7f4c035d15282a4d1933",
+  "files": [
+    {
+      "file": "local/modules/packed_pv_writeback-results.xml",
+      "source": "local/modules/packed_pv_writeback-results.xml",
+      "source_modified_utc": "2026-10-04T11:38:35.276668+00:00",
+      "original_sha256": "a150ace5c4fdac5f5357456612de549541a8061a5919acfd4a448437807e90a8",
+      "published_sha256": "fcfde620fef017daf7dc637327c93d48697a5d8624337281e83e97cdb053071e"
+    },
+    {
+      "file": "local/modules/packed_pv_writeback.log",
+      "source": "local/modules/packed_pv_writeback.log",
+      "source_modified_utc": "2026-10-04T11:38:34.903910+00:00",
+      "original_sha256": "b2e25c81c8cd4e0168d9c7190d7566378d463675b714b68f43b3ccacdec5108e",
+      "published_sha256": "22361527ad51ca5ff082e0825317c9d287989c26759ea148d57378b6504f2163"
+    },
+    {
+      "file": "local/modules/receipt.json",
+      "source": "local/modules/receipt.json",
+      "source_modified_utc": "2026-10-04T11:38:35.279154+00:00",
+      "original_sha256": "968282be8c6f74b33d04f22ac13a6032cdb1558edcc23981be1f62e17038dc15",
+      "published_sha256": "968282be8c6f74b33d04f22ac13a6032cdb1558edcc23981be1f62e17038dc15"
+    },
+    {
+      "file": "local/modules/softmax_row_engine-results.xml",
+      "source": "local/modules/softmax_row_engine-results.xml",
+      "source_modified_utc": "2026-10-04T11:37:44.697645+00:00",
+      "original_sha256": "b8bd4182c31023072d4c7622d28b62a7f7a33dcc332c678c77d14ec563cc1189",
+      "published_sha256": "615912cea4b56351b7126782a403589ce560161eddbec3042ff7c4f522d021f2"
+    },
+    {
+      "file": "local/modules/softmax_row_engine.log",
+      "source": "local/modules/softmax_row_engine.log",
+      "source_modified_utc": "2026-10-04T11:37:44.271748+00:00",
+      "original_sha256": "0d3470e71ad99933b23a9149d5db9166a2346ddc35ae66233e0c35f1d83147d7",
+      "published_sha256": "fc1261c837bd276c5e02b57ffbff1f28b08a5b9ab2bf233d20584fe79a3765bd"
+    },
+    {
+      "file": "fresh-clone/baseline/configuration-during-run.svh",
+      "source": "fresh-clone/baseline/configuration-during-run.svh",
+      "source_modified_utc": "2026-10-04T11:49:37.804378+00:00",
+      "original_sha256": "07d8729849dedb215445b0ddf4db8b1033d90de554bfb23fd1420d35faf99b92",
+      "published_sha256": "07d8729849dedb215445b0ddf4db8b1033d90de554bfb23fd1420d35faf99b92"
+    },
+    {
+      "file": "fresh-clone/baseline/generated-artifacts.json",
+      "source": "fresh-clone/baseline/generated-artifacts.json",
+      "source_modified_utc": "2026-10-04T11:50:20.138430+00:00",
+      "original_sha256": "460a4d08b7f09017e16c15229e44c4e579f09bfc9dca574d3c5c87c271d21634",
+      "published_sha256": "e0735b4eb57d8dd6ee115d9d5426707e9dc1df80ce255240d6aeda29044d8ce6"
+    },
+    {
+      "file": "fresh-clone/baseline/initial-missing-pyyaml.log",
+      "source": "fresh-clone/baseline/initial-missing-pyyaml.log",
+      "source_modified_utc": "2026-10-04T11:39:23.898831+00:00",
+      "original_sha256": "03be1d01828e93b1c510d8d9e742a04fc658528ae72000f9f2eb92ee6de4e0ed",
+      "published_sha256": "6e5f421295b834f9edb80b892d117a977e71ffd2026e463f53d63fc6c2ec71f9"
+    },
+    {
+      "file": "fresh-clone/baseline/linear-results.xml",
+      "source": "fresh-clone/baseline/linear-results.xml",
+      "source_modified_utc": "2026-10-04T11:49:37.764554+00:00",
+      "original_sha256": "ccf02a2dacb28e5376dd4103bfdd9225393f172ad23b481493893421ddb5e5dd",
+      "published_sha256": "76ab61c12b55dcbb96a9cf4c1b466330979d31518f3f056329dcf060c7a4a3a8"
+    },
+    {
+      "file": "fresh-clone/baseline/linear.log",
+      "source": "fresh-clone/baseline/linear.log",
+      "source_modified_utc": "2026-10-04T11:49:37.712974+00:00",
+      "original_sha256": "380a58f1f387e3f714d2e2e4cdee8134147eda6c62c60a882f157d68650a1db7",
+      "published_sha256": "be074be15cccab2adb186d2afe16d2c2442fe4deee08b3ac2706c6f4f062a171"
+    },
+    {
+      "file": "fresh-clone/baseline/lint.log",
+      "source": "fresh-clone/baseline/lint.log",
+      "source_modified_utc": "2026-10-04T11:44:01.791244+00:00",
+      "original_sha256": "d2377c52c4129b5c69c75e0a7eb9a1c14aca2050f72e7363066fac8a73b944d0",
+      "published_sha256": "d2377c52c4129b5c69c75e0a7eb9a1c14aca2050f72e7363066fac8a73b944d0"
+    },
+    {
+      "file": "fresh-clone/baseline/precision.svh",
+      "source": "fresh-clone/baseline/precision.svh",
+      "source_modified_utc": "2026-10-04T11:49:37.809383+00:00",
+      "original_sha256": "79d9fbae141f009a4f6d0f2a827665bab4fa81601e61eb7e7a6bf816167cf105",
+      "published_sha256": "e5271e96de800188fcc830ee5704d5c1e035bd181e4b8bc4845a143ee7f299fa"
+    },
+    {
+      "file": "fresh-clone/baseline/receipt.json",
+      "source": "fresh-clone/baseline/receipt.json",
+      "source_modified_utc": "2026-10-04T11:49:37.814381+00:00",
+      "original_sha256": "15ee25566eb3781924a229d7317be8d6188c9275b33c242f10665049f452a95c",
+      "published_sha256": "15ee25566eb3781924a229d7317be8d6188c9275b33c242f10665049f452a95c"
+    },
+    {
+      "file": "fresh-clone/baseline/verification_params.json",
+      "source": "fresh-clone/baseline/verification_params.json",
+      "source_modified_utc": "2026-10-04T11:49:37.778969+00:00",
+      "original_sha256": "16147f0d8a4c645896bb17c14910ecdd4b6db0b20fbf05539ea9f731531e3943",
+      "published_sha256": "16147f0d8a4c645896bb17c14910ecdd4b6db0b20fbf05539ea9f731531e3943"
+    },
+    {
+      "file": "fresh-clone/modules/packed_pv_writeback-results.xml",
+      "source": "fresh-clone/modules/packed_pv_writeback-results.xml",
+      "source_modified_utc": "2026-10-04T11:47:03.135072+00:00",
+      "original_sha256": "11b083b1956ae8955337f671e32bd242d7c0f8ce0b9a01d57ed61a38896a75ca",
+      "published_sha256": "ee45d66f8af24c6567cf6613f54ddc0a0058c8ceabee882d3c1ac5cc4008af5f"
+    },
+    {
+      "file": "fresh-clone/modules/packed_pv_writeback.log",
+      "source": "fresh-clone/modules/packed_pv_writeback.log",
+      "source_modified_utc": "2026-10-04T11:47:02.773745+00:00",
+      "original_sha256": "95dfca5162df8d34f6ff2f1db4681e1fa55c108bd0ff678b19044e9ec3b6a617",
+      "published_sha256": "f3ca8eefe3f6ab38f1e3ce4bc41a90b9ae7a4d328c6fa1d28f2341dd4733f67c"
+    },
+    {
+      "file": "fresh-clone/modules/receipt.json",
+      "source": "fresh-clone/modules/receipt.json",
+      "source_modified_utc": "2026-10-04T11:47:03.137183+00:00",
+      "original_sha256": "2a8ad3b31dd90e6eb6732e512ff09a95100eb45f4a9ca3e45fec03f967c2199a",
+      "published_sha256": "2a8ad3b31dd90e6eb6732e512ff09a95100eb45f4a9ca3e45fec03f967c2199a"
+    },
+    {
+      "file": "fresh-clone/modules/softmax_row_engine-results.xml",
+      "source": "fresh-clone/modules/softmax_row_engine-results.xml",
+      "source_modified_utc": "2026-10-04T11:46:07.438700+00:00",
+      "original_sha256": "104cf6be8a52811313a8576f4694547978f8256fe201ac431e26e59e426ba1e9",
+      "published_sha256": "dce700035d3cc68c9015c933c97673efb204cd5aa67ed35f877dc8169e317d19"
+    },
+    {
+      "file": "fresh-clone/modules/softmax_row_engine.log",
+      "source": "fresh-clone/modules/softmax_row_engine.log",
+      "source_modified_utc": "2026-10-04T11:46:07.105011+00:00",
+      "original_sha256": "1f87b144c55b62f0a6d753e8d90237eea82487d7d847b43e665263f5e167bf41",
+      "published_sha256": "e619ab146924868523119e2c8adb72d2909d6c8fcbe124c30e0be9ba47bd48d3"
+    }
+  ]
+}
